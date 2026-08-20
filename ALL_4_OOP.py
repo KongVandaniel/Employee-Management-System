@@ -1,7 +1,6 @@
 # Project On All 4 OOP Combine
 
-
-from abc import ABC, abstractmethod
+from abc import ABC, abstractmethod             # Import Abstraction
 
 # ==========================================
 # ABSTRACTION
@@ -82,10 +81,11 @@ def add_employee():
     salary = float(input("Enter employee salary: "))
 
     print("\nChoose employee type:")
+    print()
     print("1. Developer")
     print("2. Designer")
     print("3. Manager")
-
+    print()
     choice = input("Enter choice: ")
 
     if choice == "1":
